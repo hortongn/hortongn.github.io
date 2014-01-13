@@ -52,9 +52,10 @@ table {
 body {
 	font-family : arial, helvetica, sans-serif;
 	background-color : #fff;
-	color: #555;
+	color: #222;
 	max-width: 760px;
 	margin: 1em auto;
+	padding: 0 1em;
 	line-height: 1.5em;
 }
 
@@ -107,6 +108,10 @@ margin-bottom: 1em;
 margin-left: 1em;
 }
 
+body h2 {
+	display: none;
+}
+
 a {
 	text-decoration: none;
 }
@@ -141,6 +146,8 @@ header h1 a {
 	border-bottom: none;
 }
 
+/* Navigation */
+
 header nav ul {
 		list-style-type: none;
 }
@@ -150,3 +157,23 @@ header nav ul li {
 	margin-right: 1em;
 	margin-left: 0;
 }
+
+header nav ul li#home {
+	display: none;
+}
+
+header nav a {
+	font-size: 1.1em;
+}
+
+header nav a.selected {
+	border-bottom: solid 4px #e87830;
+}
+
+header nav a:link,
+header nav a:visited {
+	color : #000;
+}
+
+
+
