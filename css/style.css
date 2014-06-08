@@ -127,6 +127,7 @@ header {
   margin-bottom: 2em;
 }
 
+/*
 header h1 a {
 	display: block;
 	height: 52px;
@@ -134,16 +135,21 @@ header h1 a {
 	text-indent: -9999px;
 	text-decoration: none;
 }
+*/
 
 header h1 {
-	padding-bottom: 1.25em;
+/*	padding-bottom: 1.25em;
 	background: url(/images/glengage.png) top left no-repeat;
 	background-color: #fff;
 	margin-top: 3em;
+*/
+  font-size: 3em;
+  padding: 1em 0 .75em 0;
 }
 
 header h1 a {
 	border-bottom: none;
+	color: #bbb;
 }
 
 /* Navigation */
