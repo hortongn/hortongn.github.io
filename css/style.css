@@ -149,7 +149,7 @@ header h1 {
 
 header h1 a {
 	border-bottom: none;
-	color: #bbb;
+	color: #bbb !important;
 }
 
 /* Navigation */
