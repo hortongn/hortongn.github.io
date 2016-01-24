@@ -185,11 +185,12 @@ header nav a {
 }
 
 header nav a.selected {
-	border-bottom: solid 2px #e87830;
+	border-bottom: solid 2px #222;
 }
 
-header nav a:hover {
-	border-bottom: solid 2px #222;
+header nav a:hover,
+header nav a:active {
+	border-bottom: solid 2px #ccc;
 }
 
 header nav a:link,
