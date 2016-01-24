@@ -82,7 +82,8 @@ body h2 {
 }
 
 body h3 {
-	font-size: 1.25em;
+	font-size: 1em;
+	font-weight: bold;
 }
 
 body h4 {
