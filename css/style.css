@@ -178,7 +178,11 @@ header nav a {
 }
 
 header nav a.selected {
-	border-bottom: solid 4px #e87830;
+	border-bottom: solid 2px #e87830;
+}
+
+header nav a:hover {
+	border-bottom: solid 2px #222;
 }
 
 header nav a:link,
