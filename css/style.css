@@ -204,5 +204,7 @@ header nav a:visited {
 	color : #000;
 }
 
-
+em {
+	font-style : italic;
+}
 
