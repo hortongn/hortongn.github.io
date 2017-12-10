@@ -1,5 +1,4 @@
 ### Run Locally
 
 * bundle install
-* bundle exec jekyll serve --port 3000
-
+* bundle exec jekyll serve --host 0.0.0.0 --port 3000
