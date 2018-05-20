@@ -208,3 +208,30 @@ em {
 	font-style : italic;
 }
 
+div#resume h3 {
+  padding-top: 0.75em;
+  border-top: 1px solid #555;
+}
+
+div#resume h4 {
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+div#resume h4 span.organization,
+div#resume h4 span.university {
+  font-weight: bold;
+}
+
+div#resume .title,
+div#resume .degree,
+div#resume .dates {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div#resume .title,
+div#resume .degree {
+  font-weight: bold;
+}
