@@ -49,6 +49,26 @@ table {
 
 /* End Reset */
 
+@media print
+{    
+    body {
+      font-size: 11pt !important;
+      line-height: 1.15em !important;
+      margin: 0.4in !important;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+
+    a,
+    body,
+    body h2,
+    body h3 {
+      color: #000 !important;;
+    }
+}
+
 body {
 	font-family : arial, helvetica, sans-serif;
 	background-color : #fff;
@@ -85,6 +105,7 @@ body h2 {
 body h3 {
 	font-size: 1em;
 	font-weight: bold;
+  font-style: italic;
 }
 
 body h4 {
@@ -208,30 +229,38 @@ em {
 	font-style : italic;
 }
 
-div#resume h3 {
+div#cv h3 {
   padding-top: 0.75em;
-  border-top: 1px solid #555;
+  border-bottom: 1px solid #555;
 }
 
-div#resume h4 {
+div#cv h4 {
   font-style: normal;
   font-weight: normal;
   margin-bottom: 0;
 }
 
-div#resume h4 span.organization,
-div#resume h4 span.university {
-  font-weight: bold;
-}
-
-div#resume .title,
-div#resume .degree,
-div#resume .dates {
+div#cv p.organization,
+div#cv .university,
+div#cv .duties,
+div#cv .dates {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-div#resume .title,
-div#resume .degree {
-  font-weight: bold;
+div#cv .dates {
+  float: right;
+}
+
+div#cv .duties {
+  margin-left: 20pt;
+}
+
+div#cv .duties,
+div#cv p.organization {
+  margin-right: 100pt;
+}
+
+div#cv ul {
+  margin-top: 0;
 }
