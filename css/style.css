@@ -52,7 +52,7 @@ table {
 @media print
 {    
     body {
-      font-size: 11pt !important;
+      font-size: 10pt !important;
       line-height: 1.15em !important;
       margin: 0.4in !important;
     }
