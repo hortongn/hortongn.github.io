@@ -8,23 +8,22 @@ title: ' | Curriculum Vitae'
 <div id="cv">
   <div id="header" style="text-align:center;">
 		<p>
-      <strong>Glendon Horton</strong><br />
-      (he/him/his)<br />
+			Glen Horton<br />
 			Head, Application Development Unit<br />
-      University of Cincinnati Libraries<br />
-      Gmail: glen.horton
+			University of Cincinnati Libraries
 		</p>
 
     <p>
       <a href="https://glenhorton.com">https://glenhorton.com</a><br />
-      <a href="https://github.com/hortongn">https://github.com/hortongn</a><br />
-      <a href="http://www.linkedin.com/in/glenhorton">https://www.linkedin.com/in/glenhorton</a>
+      <a href="https://github.com/hortongn">https://github.com/hortongn</a>
+    </p>
+
+		<p>
+      <a class="linkedin no-print" href="http://www.linkedin.com/in/glenhorton">
+        <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x25.gif" border="0" alt="View Glen Horton's profile on LinkedIn" width="160" height="25" />
+      </a>
     </p>
   </div>
-
-  <p style="text-align:center;font-style:italic">
-    Innovative and team-oriented engineering manager with over 30 years of experience leading, building, and supporting IT solutions in libraries. A detail-oriented, empathetic, and inclusive leader with a diverse technical background and strong interpersonal skills. 
-  </p>
 
   <h3>Professional Experience</h3>
 
@@ -32,25 +31,22 @@ title: ' | Curriculum Vitae'
     <span class="dates">2018 - present</span></h4>
   <p class="organization">University of Cincinnati Libraries, Cincinnati, OH</p>
   <ul class="duties">
-    <li>Responsible for the development, maintenance, and hosting of software to advance the operations and services within the University of Cincinnati Libraries (UCL).</li>
+    <li>Responsible for the development, maintenance, and implementation of software to advance the operations and services within the University of Cincinnati Libraries (UCL).</li>
     <li>Leads and plans the technical support and development of features and functions of UCL’s software applications.</li>
     <li>Supervises and mentors the Application Development Unit’s faculty, staff, and student employees.</li>
-    <li>Accomplishments: Transitioned the repositories development team to a library-wide software development group.  Fostered a DevOps culture within the Library IT Unit.  Served as interim lead for 1 year for UCL's server and application hosting environments.</li> 
   </ul>
 
   <h4 class="title">Senior Software Applications Developer
     <span class="dates">2013 - 2018</span></h4>
   <p class="organization">University of Cincinnati Libraries, Cincinnati, OH</p>
   <ul class="duties">
-    <li>Developed, implemented, and maintained software components and interfaces of the UC Libraries digital repository and related services.  Developed deployment and continuous integration workflows. Collaborated with other universities on repository software projects.  Managed partnerships and provided leadership, vision, and mentoring for other software development team members.</li> 
-    <li>Accomplishments: Developed the software and server infrastructure for UC's Samvera-based institutional repository (Scholar@UC).  Migrated the Libraries' DSpace digital repository from OhioLINK to UC Libraries. Developed a Change Management and security workflow for deploying applications.</li>
+    <li>Accomplishments: Developed the software for the Libraries' Samvera-based institutional repository.  Migrated the Libraries' DSpace digital repository from OhioLINK to UC Libraries. </li>
   </ul>
   
   <h4 class="title">Digital Services Manager
     <span class="dates">2011 - 2013</span></h4>
   <p class="organization">Campbell County Public Library, Newport, KY</p>
   <ul class="duties">
-    <li>Managed the library's IT department and led the development and maintenance of the library's servers, websites, and social media accounts. Supervised IT staff and planned IT budgets and projects. Participated as a member of the Management Team in planning and policy making.</li>
     <li>Accomplishments: Created and managed the Library's Digital Branch using Linux, Drupal with over 40 modules, PHP, and MySQL.  Created the Library's staff wiki.</li>
   </ul>
 
@@ -58,30 +54,18 @@ title: ' | Curriculum Vitae'
     <span class="dates">1999 - 2011</span></h4>
   <p class="organization">SouthWest Ohio and Neighboring Libraries, Cincinnati, OH</p>
   <ul class="duties">
-    <li>Managed the technology assistance, consultation, and training services for the consortium's academic, public, K-12, and special library members.  Participated in interest groups, budgeting, and strategic planning.</li>
-    <li>Accomplishments: Developed the Greater Cincinnati Memory Project.  Developed an online events management application.  Created and maintained the organization's Linux-based web, mail, and file servers.  Taught over 150 technology classes and presentations.  Served as the organization's Interim Executive Director for a total of 25 months.</li>
+    <li>Accomplishments: Developed the Greater Cincinnati Memory Project.  Created an online events management system.  Created and maintained the organization's Linux-based web, mail, and file servers.  Served as Interim Executive Director for a total of 25 months.</li>
   </ul>
 
   <h4 class="title">LAN Analyst
     <span class="dates">1997 - 1999</span></h4>
   <p class="organization">Wright State University Libraries, Dayton, OH</p>
-  <ul class="duties">
-    <li>Served as Unix programmer and administrator for the University Libraries’ web server, electronic reserves server, and electronic catalog systems.</li>
-  </ul>
-
-  <h4 class="title">Library Computing Student Employee
-    <span class="dates">1992 - 1997</span></h4>
-  <p class="organization">Wright State University Libraries, Dayton, OH</p>
-  <ul class="duties">
-    <li>Assisted with the maintenance of the Libraries' computers and digital infrastructure.</li>
-  </ul>
 
   <h3>Education</h3>
 
   <h4 class="degree">Master of Science in Information Technology
     <span class="dates">2020</span></h4>
-  <p class="university">University of Cincinnati, Cincinnati, OH<br />
-  GPA: 4.0</p>
+  <p class="university">University of Cincinnati, Cincinnati, OH</p>
 
   <h4 class="degree">Bachelor of Science in Computer Science
     <span class="dates">1998</span></h4>
@@ -89,143 +73,56 @@ title: ' | Curriculum Vitae'
 
   <h3>Technical Skills</h3>
   
-  <p>Programming languages and frameworks: Ruby, Ruby on Rails, PHP, Python, JavaScript, Kotlin</p>
+  <p>Languages: Ruby, PHP, Python, JavaScript, Kotlin, Perl</p>
     
-  <p>Code management: Git, GitHub, Subversion, Vim, Eclipse, Jupyter Notebook</p>
+  <p>Frameworks: Ruby on Rails</p>
 
-  <p>Deployment and integration: CircleCI, GitHub Actions, Coveralls, Bamboo, Capistrano</p>
+  <p>Development tools: Git, GitHub, Subversion, Vim, Eclipse</p>
 
   <p>Databases: MySQL, Oracle, Redis, SQL</p>
 
-  <p>Web technologies: XML, HTML5, CSS3, SSL, Apache, Nginx, IIS, Solr, Fedora, Blacklight</p>
+  <p>Operating Systems: Linux, MacOS, Windows, Sun Solaris</p>
 
-  <p>Cybersecurity: Kali Linux, Metasploitable, Nessus, Wireshark, XssPy</p>
-  
-  <p>Operating systems: Linux, MacOS, Windows, Sun Solaris</p>
+  <p>Web technologies: XML, HTML5, CSS3, SSL, Apache, IIS</p>
 
-  <p>Virtualization and provisioning: VMware, VirtualBox, Docker, Puppet, Ansible</p>
+  <p>Server administration: Linux and GNU utils, bash scripting
+
+  <p>Network administration: TCP/IP, DNS, switches, routers, firewalls, cabling, wireless</p>
   
-  <p>Server administration: Linux and GNU utils, bash scripting</p>
+  <p>Cloud
 
   <p>Content management systems: Drupal, Joomla, WordPress, MediaWiki</p>
-
-  <p>Data science: Pandas, Matplotlib, Seaborn, NumPy, SciPy, BeautifulSoup</p>
   
   <p>Library applications: Polaris, Innovative Interfaces, Samvera, DSpace, Luna, Greenstone</p>
 
-  <h3>Selected Leadership Development</h3>
+  aws
+  containerization
+  docker
+  solr
+  fedora
+  blacklight
+  tools from my classes: cybersecurity, 
+  data science: pandas, 
 
-  <h4 class="organization">Conference on Academic Library Management (online)
-    <span class="dates">Jun 5-9, 2023</span></h4>
-  
-  <h4 class="organization">Unit Head Training, Cincinnati, OH
-    <span class="dates">Mar 30, 2023</span></h4>
+  <h3>Professional Development</h3>
 
-  <h4 class="organization">Communicating for Leadership Success, Cincinnati, OH
-    <span class="dates">Feb 10, 2022</span></h4>
+  <h4 class="organization">Samvera Connect Conference, (online)
+    <span class="dates">Oct 23 - 28, 2020</span></h4>
 
-  <h4 class="organization">Leadership in the Time of Coronavirus (online)
+  <h4 class="organization">Leadership in the Time of Coronavirus, (online)
     <span class="dates">Apr 15 - May 20, 2020</span></h4>
 
-  <h4 class="organization">EDUCAUSE Managers Institute, New Orleans, LA
+  <h4 class="organization">EDUCAUSE Institute Management Program, New Orleans, LA
     <span class="dates">Jan 27-30, 2020</span></h4>
-
-  <h4 class="organization">Situational Leadership Concepts, Cincinnati, OH
-    <span class="dates">Aug 1, 2019</span></h4>
-  
-  <h4 class="organization">Blanchard Management Essentials, Cincinnati, OH
-    <span class="dates">July 16, 2019</span></h4>
-
-  <h4 class="organization">Excellence in Leadership I (6 week course), Newport, KY
-    <span class="dates">2012</span></h4>
-
-  <h3>Selected Diversity, Equity, & Inclusion Development</h3>
-
-  <h4 class="organization">The Power of Stories, Cincinnati, OH
-    <span class="dates">May 31, 2023</span></h4>
-  
-  <h4 class="organization">Creating a Culture of Respect, Cincinnati, OH
-    <span class="dates">February 7, 2023</span></h4>
-  
-  <h4 class="organization">Cincinnati's National Day of Racial Healing 2023 (online)
-    <span class="dates">January 17, 2023</span></h4>
-
-  <h4 class="organization">"Mini-SOCHE" DEI in Academic Libraries Conference (online)
-    <span class="dates">July 22, 2022</span></h4>
-
-  <h4 class="organization">Talking DEI and Algorithms, (ExLibris online)
-    <span class="dates">Jun 29, 2022</span></h4>
-
-  <h4 class="organization">Understanding Unconscious Bias in Hiring, (UC online)
-    <span class="dates">Jun 24, 2022</span></h4>
-  
-  <h4 class="organization">Safe Zone Ally Training, Cincinnati, OH
-    <span class="dates">Mar 18, 2022</span></h4>
-
-  <h4 class="organization">Microagressions workshop, Cincinnati, OH
-    <span class="dates">Mar 15, 2022</span></h4>
-
-  <h4 class="organization">UC Libraries R-E-S-P-E-C-T Juneteenth event (online)
-    <span class="dates">Jun 18, 2021</span></h4>
-
-  <h4 class="organization">Awareness, Relationships, Commitment Session, (UC online)
-    <span class="dates">Apr 15, 2021</span></h4>
-
-  <h4 class="organization">Lessons in DEI: Managing Change from Where You Are, (ALA online)
-    <span class="dates">Jan 28, 2021</span></h4>
-  
-  <h4 class="organization">Anti-Harassment/Non-Discrimination Workshop (online)
-    <span class="dates">Dec 9, 2020</span></h4>
-
-  <h4 class="organization">UC Libraries Dimensions of Diversity chat, (UC online)
-    <span class="dates">Nov 9, 2020</span></h4>
-
-  <h3>Other Selected Professional Development</h3>
-
-  <h4 class="organization">Generative AI & ChatGPT panel, UC
-    <span class="dates">Aug 29, 2023</span></h4>
-  
-  <h4 class="organization">LLMs: A New Way to Teach Programming, ACM
-    <span class="dates">Jun 21, 2023</span></h4>
-
-  <h4 class="organization">A Thousand Threats, A Thousand Opportunities:<br /> A Look at Generative AI, ACRL
-    <span class="dates">Jun 14, 2023</span></h4>
-
-  <h4 class="organization">UC Cybersecurity Incident Response Exercise, Cincinnati, OH
-    <span class="dates">Jun 15, 2023</span></h4>
-
-  <h4 class="organization">Future of DevOps, Cincinnati, OH
-    <span class="dates">Mar 29, 2023</span></h4>
-
-  <h4 class="organization">Teaching with ChatGPT (online)
-    <span class="dates">February 7, 2023</span></h4>
-
-  <h4 class="organization">HPC Workshop: Big Data and Machine Learning (online)
-    <span class="dates">August 30-31, 2022</span></h4>
-
-  <h4 class="organization">Artificial Intelligence in the Library (online)
-    <span class="dates">July 13, 2022</span></h4>
-
-  <h4 class="organization">LYRASIS Member Summit: From Trend to Transformation (online)
-    <span class="dates">June 15, 2022</span></h4>
-
-  <h4 class="organization">Digital Transformation 2022 Symposium, Highland Heights, KY
-    <span class="dates">May 17, 2022</span></h4>
-
-  <h4 class="organization">Coalition for Networked Information Meeting, San Diego, CA
-    <span class="dates">Mar 28-29, 2022</span></h4>
-
-  <h4 class="organization">Code4Lib 2021 Conference (online)
-    <span class="dates">Mar 22 - 26, 2021</span></h4>
-
-  <h4 class="organization">Academic Chairpersons Conference (online)
-    <span class="dates">Feb 3 - 5, 2021</span></h4>
-
-  <h4 class="organization">Samvera Connect Conference (online)
-    <span class="dates">Oct 23 - 28, 2020</span></h4>
 
   <h4 class="organization">Samvera Connect Conference, St. Louis, MO
     <span class="dates">Oct 24, 2019</span></h4>
+
+  <h4 class="organization">Situational Leadership Concepts, Cincinnati, OH
+    <span class="dates">Aug 1, 2019</span></h4>
+
+  <h4 class="organization">Blanchard Management Essentials, Cincinnati, OH
+    <span class="dates">July 16, 2019</span></h4>
 
   <h4 class="organization">Ohio IR Day Spring 2019 Meeting, Columbus, OH
     <span class="dates">June 10, 2019</span></h4>
@@ -338,33 +235,13 @@ title: ' | Curriculum Vitae'
 	<h4 class="organization">Ohio Tech Connections 4 Conference, Columbus, OH
 		<span class="dates">May 23, 2002</span></h4>
   
-  <h3>Publications</h3>
+  <h3>Peer-Reviewed Publications</h3>
   
-  <p>Hemanth Gudaparthi, Nan Niu, Boyang Wang, Tanmay Bhowmik, Hui Liu, Jianzhang Zhang, Juha Savolainen, Glen Horton, Sean Crowe, Thomas Scherz &apm; Lisa Haitz. (2023). Artifacts of Prompting Creative Requirements via Traceable and Adversarial Examples in Deep Learning. <em>Proceedings of the 31st IEEE International Requirements Engineering Conference</em>. (preprint). <a href="https://doi.org/10.7945/wyfy-pf18">doi.org/10.7945/wyfy-pf18</a></p>
+  <p>Wang, W., Dumont, F., Niu, N., &amp; Horton, G. (2020). Detecting software security vulnerabilities via requirements dependency analysis. <em>IEEE Transactions on Software Engineering</em>, , 1-1. doi:10.1109/TSE.2020.3030745</p>
 
-  <p>Horton, G. (2023). Ask me anything - An interview with ChatGPT. <em>UC Libraries Source Newsletter</em>, 21(2). <a href="https://libapps.libraries.uc.edu/source/ask-me-anything/">https://libapps.libraries.uc.edu/source/ask-me-anything/</a></p>
+  <h3>Conference Presentations</h3>
 
-  <p>Wang, W., Dumont, F., Niu, N., &amp; Horton, G. (2022). Detecting software security vulnerabilities via requirements dependency analysis. <em>IEEE Transactions on Software Engineering</em>, 48(5), 1665-1675. <a href="https://doi.org/10.1109/TSE.2020.3030745">doi:10.1109/TSE.2020.3030745</a></p>
-  
-  <h3>Posters and Technical Papers</h3>
-
-  <p>Horton, G., Crowe, S., Scherz, T. (2019). <em>Hyrax Customizations.</em> Poster presented at Samvera Connect 2019, St. Louis, MO.</p>
-
-  <p>Newman, L., Horton, G., Crowe, S., Scherz, T. (2017). <em>The Repository as the Center of the Universe.</em> Poster presented at Samvera Connect 2017, Evanston, IL.</p>
-
-  <p>Horton et al. (2016). <em>University of Cincinnati Libraries Discovery Strategic Initiative.</em> [White paper]. University of Cincinnati Libraries.</p>
-
-  <p>Newman, L., Horton, G., Crowe, S., Scherz, T., Van Mil, J. (2015). <em>Navigating Through a Hailstorm.</em> Poster presented at Hydra Connect 2015, Minneapolis, MN.</p>
-
-  <p>Newman, L., Horton, G., Crowe, S., Scherz, T., Van Mil, J. (2015). <em>Scholar@UC: Achieving Ambition Agendas with Limited Means.</em> Poster presented at Open Repositories 2015, Indianapolis, IN.</p>
-
-  <h3>Selected Conference Presentations</h3>
-
-  <h4 class="title">Learning as we grow: challenges and wins in <br />implementing an AI-generated subject indexing tool<br />for repositories
-    <span class="dates">Nov 17, 2023</span></h4>
-  <p class="organization">AI4LAM Fantastic Futures Conference, Vancouver, BC</p>
-
-  <h4 class="title">Mindful Coding
+  <h4 class="title"><a href="https://docs.google.com/presentation/d/1AQgpcMg7mZMuJ7jxyfuSDgQSLrzhBgoKYEUYuN6ey_Q/edit?usp=sharing">Mindful Coding</a>
     <span class="dates">Oct 24, 2019</span></h4>
   <p class="organization">Samvera Connect Conference, St. Louis, MO</p>
 
@@ -492,26 +369,8 @@ title: ' | Curriculum Vitae'
 		<span class="dates">May 23, 2002</span></h4>
 	<p class="organization">Ohio Tech Connections 4 Conference, Columbus, OH</p>
 
-  <h3>Selected Teaching and Training</h3>
+  <h3>Teaching and Training</h3>
 
-  <p>(Complete list at <a href="https://glenhorton.com/presentations/">https://glenhorton.com/presentations</a>)</p>
-
-  <h4 class="title">Scholar@UC Overview (Love Data Week)
-    <span class="dates">Feb 14, 2023</span></h4>
-  <p class="organization">UC Health Sciences Library, Cincinnati, OH</p>
-
-  <h4 class="title">Biohacking Tech for Wellness
-    <span class="dates">Feb 8, 2023</span></h4>
-  <p class="organization">UC Libraries Application Development Group, Cincinnati, OH</p>
-
-  <h4 class="title">DEI as an IT Issue (podcast discussion)
-    <span class="dates">Aug 26, 2021</span></h4>
-  <p class="organization">UC Libraries Technology Group, Cincinnati, OH</p>
-
-  <h4 class="title">Applied Agile and Open Source Development
-    <span class="dates">June 18, 2021</span></h4>
-  <p class="organization">Research Experience for Teachers Program, Cincinnati, OH</p>
-	
   <h4 class="title">Scholar@UC
     <span class="dates">Jan 16, 2020</span></h4>
   <p class="organization">The Collaboration Network, Cincinnati, OH</p>
@@ -544,14 +403,30 @@ title: ' | Curriculum Vitae'
     <span class="dates">Mar 20, 2013</span></h4>
   <p class="organization">Kentucky Department for Libraries and Archives, Frankfort, KY</p>
   
+  <h4 class="title">Zimbra Collaboration Suite Overview
+    <span class="dates">Jan 28, 2013</span></h4>
+  <p class="organization">Campbell County Public Library, Newport, KY</p>
+
   <h4 class="title">2013 Mobile Device Preview
     <span class="dates">Dec 11, 2012</span></h4>
   <p class="organization">Kentucky Department for Libraries and Archives, online</p>
+  
+  <h4 class="title">SLA Tech Blitz
+    <span class="dates">Nov 8, 2012</span></h4>
+  <p class="organization">Cincinnati Chapter of the Special Libraries Association, Cincinnati, OH</p>
   
   <h4 class="title">QR Codes in Libraries
     <span class="dates">Jan 23, 2012</span></h4>
   <p class="organization">Campbell County Public Library, Newport, KY</p>
 
+  <h4 class="title">Technology Trends
+    <span class="dates">Dec 9, 2011</span></h4>
+  <p class="organization">Kentucky Public Libraries, Bluegrass Region, Richmond, KY</p>
+  
+  <h4 class="title">Hi-Tech on the Horizon
+    <span class="dates">Nov 29, 2011</span></h4>
+  <p class="organization">Cincinnati Chapter of the Special Libraries Association, Cincinnati, OH</p>
+  
   <h4 class="title">Doing Data Like a Pro
     <span class="dates">Aug 29, 2011</span></h4>
   <p class="organization">COASIS&#038;T, Columbus, OH</p>
@@ -572,6 +447,10 @@ title: ' | Curriculum Vitae'
     <span class="dates">Apr 21, 2011</span></h4>
   <p class="organization">Preble County District Library, Eaton, OH</p>
   
+  <h4 class="title">Hi-Tech on the Horizon
+    <span class="dates">Mar 10, 2011</span></h4>
+  <p class="organization">Boone County Public Library, Burlington, KY</p>
+
   <h4 class="title">Ebook Devices
     <span class="dates">Nov 11, 2010</span></h4>
   <p class="organization">Granville Public Library, Granville, OH</p>
@@ -580,7 +459,7 @@ title: ' | Curriculum Vitae'
     <span class="dates">May 20, 2010</span></h4>
   <p class="organization">Kenton County Public Library, Erlanger, KY</p>
   
-  <h4 class="title">Extreme Makeover: Digital Edition
+  <h4 class="title">Exteme Makeover: Digital Edition
     <span class="dates">Apr 29, 2010</span></h4>
   <p class="organization">SWON Libraries Support Staff Symposium, Cincinnati, OH</p>
 
@@ -612,6 +491,10 @@ title: ' | Curriculum Vitae'
     <span class="dates">July 10, 2008</span></h4>
   <p class="organization">International Paper, Loveland, OH</p>
   
+  <h4 class="title">Getting Results With Google
+    <span class="dates">June 18, 2008</span></h4>
+  <p class="organization">SWON Libraries, Blue Ash, OH</p>
+  
   <h4 class="title">Open Session on Open Source
     <span class="dates">May 20, 2008</span></h4>
   <p class="organization">Ohio Library Council, Columbus, OH</p>
@@ -620,13 +503,45 @@ title: ' | Curriculum Vitae'
     <span class="dates">May 13, 2008</span></h4>
   <p class="organization">COASIS&#038;T, Columbus, OH</p>
   
+  <h4 class="title">Got Gadgets?, Supporting Mobile Devices in Your Library
+    <span class="dates">Apr 29, 2008</span></h4>
+  <p class="organization">Ohio Library Council, Columbus, OH</p>
+  
+  <h4 class="title">Getting Results With Google
+    <span class="dates">Apr 17, 2008</span></h4>
+  <p class="organization">SWON Libraries Support Staff Symposium, Dayton, OH</p>
+  
+  <h4 class="title">Technology Trends 2008
+    <span class="dates">Mar 20, 2008</span></h4>
+  <p class="organization">SWON Libraries, Blue Ash, OH</p>
+  
   <h4 class="title">Tune-Up Your Library&#8217;s Website
     <span class="dates">Feb 21, 2008</span></h4>
   <p class="organization"> SWON Libraries, Blue Ash, OH</p>
 
+  <h4 class="title">Tune-Up Your Library&#8217;s Website
+    <span class="dates">Jan 17, 2008</span></h4>
+  <p class="organization"> SWON Libraries, Blue Ash, OH</p>
+
+  <h4 class="title">Mobile Devices in Libraries
+    <span class="dates">Dec 7, 2007</span></h4>
+  <p class="organization">SWON Libraries, Blue Ash, OH</p>
+  
+  <h4 class="title">Gadgets and Gizmos
+    <span class="dates">Oct 24, 2007</span></h4>
+  <p class="organization">Collection Development Symposium, Columbus, OH</p>
+  
   <h4 class="title">Digital Rights Management
     <span class="dates">Oct 24, 2007</span></h4>
   <p class="organization">Collection Development Symposium, Columbus, OH</p>
+  
+  <h4 class="title">Technology Trends
+    <span class="dates">Oct 2, 2007</span></h4>
+  <p class="organization">Preble County Public Library, Eaton, OH</p>
+
+  <h4 class="title">Gadgets &amp; Gizmos Galore
+    <span class="dates">Sep 4, 2007</span></h4>
+  <p class="organization">Kenton County Public Library, Erlanger, KY</p>
   
   <h4 class="title">A Look at George Jetson&#8217;s Gadgets
     <span class="dates">Aug 15, 2007</span></h4>
@@ -636,21 +551,73 @@ title: ' | Curriculum Vitae'
     <span class="dates">Aug 1, 2007</span></h4>
   <p class="organization">SWON Libraries&#8217; Mini-Conference, Erlanger, KY</p>
   
+  <h4 class="title">Gadgets in Libraries
+    <span class="dates">July 25, 2007</span></h4>
+  <p class="organization">OHIONET, Columbus, OH</p>
+  
+  <h4 class="title">Digital Declassified: Digital Rights Management
+    <span class="dates">July 17, 2007</span></h4>
+  <p class="organization">Ohio Library Council, Columbus, OH</p>
+  
   <h4 class="title">Network Tune-Up
     <span class="dates">June 13, 2007</span></h4>
   <p class="organization">Ohio Library Council, Westerville, OH</p>
   
   <h4 class="title">Open Source Software Grows Up
+    <span class="dates">May 22, 2007</span></h4>
+  <p class="organization">SWON Libraries, Blue Ash, OH</p>
+  
+  <h4 class="title">Open Source Software Grows Up
     <span class="dates">May 10, 2007</span></h4>
   <p class="organization">Western New York Library Resources Council, Buffalo, NY</p>
 
+  <h4 class="title">Technology Trends 2007
+    <span class="dates">Apr 25, 2007</span></h4>
+  <p class="organization">SWON Libraries, Blue Ash, OH</p>
+  
+  <h4 class="title">Technology Trends 2007
+    <span class="dates">Mar 22, 2007</span></h4>
+  <p class="organization">SWON Libraries, Germantown, OH</p>
+  
   <h4 class="title">Librarians Reaching Out to Millennials with Social Tools
     <span class="dates">Mar 9, 2007</span></h4>
   <p class="organization">Kentucky Association of Independent Schools, Lexington, KY</p>
   
+  <h4 class="title">Reaching Out to Patrons with Social Tools
+    <span class="dates">Feb 22, 2007</span></h4>
+  <p class="organization">SWON Libraries, Blue Ash, OH</p>
+  
+  <h4 class="title">Technology Trends 2007
+    <span class="dates">Feb 6, 2007</span></h4>
+  <p class="organization">SERLS, Caldwell, OH</p>
+  
+  <h4 class="title">Social Tools Info
+    <span class="dates">Jan 30, 2007</span></h4>
+  <p class="organization">SWON Libraries, Blue Ash, OH</p>
+  
+  <h4 class="title">Reaching Out to Patrons with Social Tools
+    <span class="dates">Jan 18, 2007</span></h4>
+  <p class="organization">SWON Libraries, Springfield, OH</p>
+
+  <h4 class="title">Break Through Your Four Walls
+    <span class="dates">Dec 6, 2006</span></h4>
+  <p class="organization">Ohio Library Council, Columbus, OH</p>
+  
+  <h4 class="title">Gadgets and Gizmos Galore
+    <span class="dates">Oct 19, 2006</span></h4>
+  <p class="organization">Kenton County Public Library, Erlanger, KY</p>
+  
+  <h4 class="title">CSS Layout, Hacks, and Dealing with Special Elements
+    <span class="dates">Sep 19, 2006</span></h4>
+  <p class="organization">University of Kentucky, Lexington, KY</p>
+  
   <h4 class="title">Gadgets and Gizmos Galore
     <span class="dates">Sep 13, 2006</span></h4>
   <p class="organization">Ohio Library Council, Columbus, OH</p>
+  
+  <h4 class="title">Social Tools
+    <span class="dates">Aug 25, 2006</span></h4>
+  <p class="organization">Boone County Public Library, Union, KY</p>
   
   <h4 class="title">Top Tech Trends in Libraries
     <span class="dates">Aug 21, 2006</span></h4>
@@ -660,13 +627,61 @@ title: ' | Curriculum Vitae'
     <span class="dates">Aug 17, 2006</span></h4>
   <p class="organization">Ohio Library Council, Columbus, OH</p>
   
+  <h4 class="title">Break Through Your Four Walls
+    <span class="dates">July 26, 2006</span></h4>
+  <p class="organization">Ohio Library Council, Columbus, OH</p>
+  
+  <h4 class="title">More Gadgets and Gizmos
+    <span class="dates">July 19, 2006</span></h4>
+  <p class="organization">Boone County Public Library, Union, KY</p>
+  
+  <h4 class="title">Gadgets and Gizmos
+    <span class="dates">July 12, 2006</span></h4>
+  <p class="organization">Boone County Public Library, Union, KY</p>
+  
+  <h4 class="title">Technology 101: Are We in the Future Yet?
+    <span class="dates">June 28, 2006</span></h4>
+  <p class="organization">Boone County Public Library, Union, KY</p>
+  
   <h4 class="title">Bringing the Web to the User: An Introduction to RSS
     <span class="dates">May 18, 2006</span></h4>
+  <p class="organization">GCLC, Blue Ash, OH</p>
+  
+  <h4 class="title">Using Social Tools to Communicate
+    <span class="dates">Apr 27, 2006</span></h4>
+  <p class="organization">GCLC, Wilmington, OH</p>
+  
+  <h4 class="title">Technobabble Translated
+    <span class="dates">Apr 20, 2006</span></h4>
+  <p class="organization">Kentucky Department for Libraries and Archives, Frankfort, KY</p>
+  
+  <h4 class="title">Basics of Cascading Style Sheets (CSS)
+    <span class="dates">Apr 12, 2006</span></h4>
+  <p class="organization">GCLC, Blue Ash, OH</p>
+  
+  <h4 class="title">Technology Trends 2006
+    <span class="dates">Mar 14, 2006</span></h4>
   <p class="organization">GCLC, Blue Ash, OH</p>
   
   <h4 class="title">Web 2.0 Technologies
     <span class="dates">Mar 11, 2006</span></h4>
   <p class="organization">Xavier University students, Cincinnati, OH</p>
+  
+  <h4 class="title">Technology Trends
+    <span class="dates">Mar 9, 2006</span></h4>
+  <p class="organization">OHIONET -Columbus, OH</p>
+  
+  <h4 class="title">Technobabble Translated
+    <span class="dates">Feb 24, 2006</span></h4>
+  <p class="organization">Special Libraries Association,  Kentucky Chapter</p>
+  
+  <h4 class="title">Introduction to Blogging in Libraries
+    <span class="dates">Feb 16, 2006</span></h4>
+  <p class="organization">GCLC, Blue Ash, OH</p>
+  
+  <h4 class="title">Introduction to Blogging in Libraries
+    <span class="dates">Feb 16, 2006</span></h4>
+  <p class="organization">GCLC, Blue Ash, OH</p>
   
   <h4 class="title">Technobabble Translated
     <span class="dates">Feb 1, 2006</span></h4>
@@ -675,6 +690,26 @@ title: ' | Curriculum Vitae'
   <h4 class="title">CSS Basics, Tips, and Tricks
     <span class="dates">Jan 25, 2006</span></h4>
   <p class="organization">University of Kentucky, Lexington, KY</p>
+  
+  <h4 class="title">Blogging, Hands On
+    <span class="dates">Jan 19, 2006</span></h4>
+  <p class="organization">OHIONET, Columbus, OH</p>
+  
+  <h4 class="title">Libraries, Social Tools, and the Web 2.0
+    <span class="dates">Jan 12, 2006</span></h4>
+  <p class="organization">GCLC, Blue Ash, OH</p>
+
+  <h4 class="title">Technobabble Translated
+    <span class="dates">Nov 30, 2005</span></h4>
+  <p class="organization">Kentucky Department for Libraries and Archives, Frankfort, KY</p>
+  
+  <h4 class="title">Blogging, Hands On
+    <span class="dates">Nov 17, 2005</span></h4>
+  <p class="organization">OHIONET, Columbus, OH</p>
+  
+  <h4 class="title">Creating Database-driven Websites
+    <span class="dates">Nov 15, 2005</span></h4>
+  <p class="organization">GCLC, Cincinnati, OH</p>
   
   <h4 class="title">Blogs, RSS, &amp; Libraries, Oh My!
     <span class="dates">Oct 10, 2005</span></h4>
@@ -688,6 +723,18 @@ title: ' | Curriculum Vitae'
     <span class="dates">Oct 5, 2005</span></h4>
   <p class="organization">Ohio Library Council, Columbus, OH</p>
   
+	<h4 class="title">Technology Trends 2005
+		<span class="dates">Mar 24, 2005</span></h4>
+	<p class="organization">GCLC, Cincinnati, OH</p>
+
+	<h4 class="title">Wireless Networks and Hotspots in Libraries
+		<span class="dates">Feb 23, 2005</span></h4>
+	<p class="organization">GCLC, Cincinnati, OH</p>
+
+	<h4 class="title">Creating Database-Driven Web Sites
+		<span class="dates">Dec 2nd, 2005</span></h4>
+	<p class="organization">GCLC, Cincinnati, OH</p>
+
 	<h4 class="title">Mobile Devices In Libraries
 		<span class="dates">Nov 10, 2004</span></h4>
 	<p class="organization">GCLC, Cincinnati, OH</p>
@@ -696,8 +743,20 @@ title: ' | Curriculum Vitae'
 		<span class="dates">Oct 27, 2004</span></h4>
 	<p class="organization">GCLC, Cincinnati, OH</p>
 	
+  <h4 class="title">Current Best Practices in Web Development
+		<span class="dates">Mar 25, 2004</span></h4>
+	<p class="organization">GCLC, Cincinnati, OH</p>
+
+	<h4 class="title">Technology Trends 2004
+		<span class="dates">Mar 17, 2004</span></h4>
+	<p class="organization">GCLC, Cincinnati, OH</p>
+
 	<h4 class="title">Current Best Practices in Web Development
 		<span class="dates">Jan 14, 2004</span></h4>
+	<p class="organization">GCLC, Cincinnati, OH</p>
+
+	<h4 class="title">Putting Databases On The Web
+		<span class="dates">Dec 11, 2003</span></h4>
 	<p class="organization">GCLC, Cincinnati, OH</p>
 
 	<h4 class="title">Open Source Software for Libraries
@@ -716,8 +775,20 @@ title: ' | Curriculum Vitae'
 		<span class="dates">Apr 23, 2003</span></h4>
 	<p class="organization">GCLC, Cincinnati, OH</p>
 
+	<h4 class="title">Technology Trends 2003
+		<span class="dates">Mar 18, 2003</span></h4>
+	<p class="organization">GCLC, Cincinnati, OH</p>
+
+	<h4 class="title">Linux in Libraries
+		<span class="dates">Feb 12, 2003</span></h4>
+	<p class="organization">GCLC, Cincinnati, OH</p>
+
 	<h4 class="title">Wireless Networks
 		<span class="dates">June 26, 2002</span></h4>
+	<p class="organization">GCLC, Cincinnati, OH</p>
+
+	<h4 class="title">Linux In Libraries
+		<span class="dates">Feb 6, 2001</span></h4>
 	<p class="organization">GCLC, Cincinnati, OH</p>
 
 	<h4 class="title">Technology Trends
@@ -729,51 +800,33 @@ title: ' | Curriculum Vitae'
 	<p class="organization">GCLC, Cincinnati, OH</p>
 
   <h3>Administrative Service (University of Cincinnati)</h3>
-  
-  <h4 class="organizaion">UCL NIH Policy Readiness Taskforce
-    <span class="dates">2023 - present</span></h4>
 
-  <h4 class="organizaion">UCL Staff Advisory Council
-    <span class="dates">2022 - present</span></h4>
-
-  <h4 class="organizaion">UCL Software Developer Search Committee (Chair)
-    <span class="dates">2023</span></h4>
-	
-  <h4 class="organizaion">UCL ARB Head Search Committee
-    <span class="dates">2022</span></h4>
-
-  <h4 class="organizaion">UCL Computer Systems Admin Search Committee (Chair)
-    <span class="dates">2021 - 2022</span></h4>
-  
-  <h4 class="organizaion">UC Accessible Wayfinding Committee
-    <span class="dates">2020 - 2021</span></h4>
-
-  <h4 class="organizaion">UCL Strategic Plan Revision Team
-    <span class="dates">2020 - 2021</span></h4>
+  <h4 class="organizaion">Accessible Wayfinding Committee
+    <span class="dates">2020-present</span></h4>
 
   <h4 class="organizaion">UC Art Collection Technology Task Force
-    <span class="dates">2019 - 2020</span></h4>
+    <span class="dates">2019-present</span></h4>
   
-  <h4 class="organizaion">UCL Student Quality Service Award Committee
+  <h4 class="organizaion">Student Quality Service Award Committee
     <span class="dates">2020</span></h4>
   
-  <h4 class="organizaion">UCL Digital Content Strategy Committee
-    <span class="dates">2019 - 2020</span></h4>
+  <h4 class="organizaion">Digital Content Strategy Committee
+    <span class="dates">2019-2020</span></h4>
 
-  <h4 class="organizaion">UCL Design Thinking (Communications Lead)
-    <span class="dates">2019 - 2020</span></h4>
+  <h4 class="organizaion">Design Thinking (Communications Lead)
+    <span class="dates">2019-2020</span></h4>
 
-  <h4 class="organizaion">UCL Software Developer Search Committee (Co-Chair)
+  <h4 class="organizaion">Software Developer Search Committee (Co-Chair)
     <span class="dates">2018</span></h4>
 
-  <h4 class="organizaion">UCL Human Resources Coordinator Search Committee
+  <h4 class="organizaion">Human Resources Coordinator Search Committee
     <span class="dates">2017</span></h4>
 
-  <h4 class="organizaion">UCL Digital Repository Task Force
-    <span class="dates">2013 - 2017</span></h4>
+  <h4 class="organizaion">Digital Repository Task Force
+    <span class="dates">2013-2017</span></h4>
   
   <h4 class="organizaion">UCL Discovery Team (Co-Chair)
-    <span class="dates">2014 - 2016</span></h4>
+    <span class="dates">2014-2016</span></h4>
   
   <h3>Professional Service</h3>
 
@@ -796,7 +849,7 @@ title: ' | Curriculum Vitae'
 
   <h4 class="organization">State Library of Ohio</h4>
   <ul>
-    <li class="title">LSTA Advisory Council<span class="dates">2007 - 2011</span></li>
+    <li class="title">LSTA Advisory Council<span class="dates">2007-2011</span></li>
     <li class="title">Gates Foundation Broadband Focus Group<span class="dates">2007</span></li>
     <li class="title">Statewide Resource Sharing Brokering Task Force<span class="dates">2006</span></li>
     <li class="title">Develop and present online training module: Networking 101<span class="dates">2005</span></li>
@@ -812,7 +865,7 @@ title: ' | Curriculum Vitae'
   
   <h4 class="organization">State Assisted Academic Library Council of Kentucky (SAALCK)</h4>
   <ul>
-    <li class="title">KHECC Planning Committee<span class="dates">2005 - 2006</span></li>
+    <li class="title">KHECC Planning Committee<span class="dates">2005-2006</span></li>
   </ul>
   
   <h4 class="organization">Ohio Library Council (OLC)</h4>
@@ -823,13 +876,13 @@ title: ' | Curriculum Vitae'
   
   <h4 class="organization">Ohio Council of Library and Information Services (OCLIS)</h4>
   <ul>
-    <li class="title">Treasurer<span class="dates">2004 - 2006</span></li>
+    <li class="title">Treasurer<span class="dates">2004-2006</span></li>
   </ul>
 
   <h4 class="organization">American Society for Information Science &#038; Technology,<br /> Southern Ohio Chapter</h4>
   <ul>
     <li class="title">Web Manager<span class="dates">2000, 2006</span></li>
-    <li class="title">Treasurer<span class="dates">2005 - 2006</span></li>
+    <li class="title">Treasurer<span class="dates">2005-2006</span></li>
     <li class="title">Chapter Alternate Assembly Representative<span class="dates">2004</span></li>
     <li class="title">Chapter Chair, Southern Ohio Chapter<span class="dates">2003</span></li>
     <li class="title">Programs Chair, Southern Ohio Chapter<span class="dates">2002</span></li>
@@ -838,10 +891,7 @@ title: ' | Curriculum Vitae'
   </ul>
  
   <h3>Professional Affiliations and Memberships</h3>
-  
-  <h4 class="organization">Association for Computing Machinery
-    <span class="dates">2021 - present</span></h4>
-  
+
   <h4 class="organization">Kentucky Library Association
     <span class="dates">2011 - 2013</span></h4>
   
@@ -859,4 +909,42 @@ title: ' | Curriculum Vitae'
 
   <h4 class="organization">American Society for Information Science &#038; Technology,<br /> Southern Ohio Chapter
     <span class="dates">1998 - 2006</span></h4>
+  
+</div>
+
+
+<div style="display:none;">
+  MORE:
+
+  all my posters
+  * samvera connect 2019: hyrax customizations
+  * samvera connect 2017: The Repository as the Center of the Univers
+  * Hydra Connect 2015: navigating through a Hailstorm
+  * OR2015: Scholar@UC achieving ambitious agendas with limited means
+  
+  development projects
+  * capstone project
+  
+  research interests
+
+  my various blog posts and articles
+  * glengage
+  
+  grants
+  
+  samvera
+  * devops interest group
+  * etc
+  
+  awards
+  * soasist awards
+  
+  discovery team white paper
+
+  ccpl
+  * social media committee
+  * database committee (chair)
+  * in-house computer training committee
+  * teen tech week
+
 </div>
