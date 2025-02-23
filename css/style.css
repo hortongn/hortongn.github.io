@@ -49,6 +49,11 @@ table {
 
 /* End Reset */
 
+:root {
+  --lightTheme: #ffffff;
+  --darkTheme: #111111;
+}
+
 @media print
 {    
     body {
@@ -78,6 +83,16 @@ body {
 	padding: 0 1em;
 	line-height: 1.5em;
 	font-size: 20px;
+}
+
+body.light-theme {
+  background: var(--lightTheme);
+  color: var(--darkTheme);
+}
+
+body.dark-theme {
+  background: var(--darkTheme);
+  color: var(--lightTheme);
 }
 
 body p,
@@ -220,9 +235,14 @@ header nav a:active {
 	border-bottom: solid 2px #ccc;
 }
 
-header nav a:link,
-header nav a:visited {
-	color : #000;
+body.light-theme header nav a:link,
+body.light-theme header nav a:visited {
+	color : var(--darkTheme);
+}
+
+body.dark-theme header nav a:link,
+body.dark-theme header nav a:visited {
+	color : var(--lightTheme);
 }
 
 em {
