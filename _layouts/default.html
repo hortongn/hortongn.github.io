@@ -17,19 +17,154 @@
 
     </script>
 
+    <style>
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.5rem;
+            padding: 0.5rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            transition: background-color 0.3s;
+        }
+
+        .theme-toggle:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+
+        body.dark-mode {
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        body.dark-mode header nav a {
+            color: #ffffff;
+        }
+
+        body.dark-mode header nav a.selected {
+            border-bottom: solid 2px #fff;
+        }
+        
+        body header nav a.selected {
+            border-bottom: solid 2px #000;
+        }
+
+        body.dark-mode .theme-toggle:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        body.dark-mode h3 {
+          color: #fff;
+        }
+
+        .moon-icon, .sun-icon {
+            width: 24px;
+            height: 24px;
+            fill: currentColor;
+        }
+
+        .moon-icon {
+            display: block;
+        }
+
+        .sun-icon {
+            display: none;
+        }
+
+        body.dark-mode .moon-icon {
+            display: none;
+        }
+
+        body.dark-mode .sun-icon {
+            display: block;
+            fill: white;
+            stroke: white;
+        }
+
+.dark-image {
+    display: none;
+}
+
+body.dark-mode .light-image {
+    display: none;
+}
+
+body.dark-mode .dark-image {
+    display: inline;
+}
+
+body.dark-mode a:link,
+body.dark-mode a:visited {
+  color: #fff;
+}
+
+    </style>
+
   </head>
   <body>
     <header class="no-print">
       <h1><a href="/">Glen</a></h1>
       <nav>
         <ul>
-          <li><a class="enso" href="/"><img src="/images/enso.gif" alt="enso" style="width:51px;height:50px;" /></a></li>
+          <li class="light-image"><a class="enso" href="/"><img src="/images/enso.gif" alt="enso" style="width:51px;height:50px;" /></a></li>
+          <li class="dark-image"><a class="enso" href="/"><img src="/images/enso-invert2.gif" alt="enso" style="width:51px;height:50px;" /></a></li>
           <li><a {% if page.title == ' | About' %} class="selected" {% endif %} href="/about">about</a></li>
           <li><a {% if page.title == ' | Curriculum Vitae' %} class="selected" {% endif %} href="/cv">cv</a></li>
           <li><a {% if page.title == ' | Presentations' %} class="selected" {% endif %} href="/presentations">presentations</a></li>
           <li><a {% if page.title == ' | Contact' %} class="selected" {% endif %} href="/contact">contact</a></li>
         </ul>
+
+			<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+				<!-- Moon SVG icon -->
+				<svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+					<path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 0 1-4.4 2.26 5.403 5.403 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/>
+				</svg>
+				<!-- Sun SVG icon -->
+        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+			</button>
       </nav>
+
+			<script>
+				document.addEventListener('DOMContentLoaded', () => {
+						const themeToggle = document.getElementById('themeToggle');
+						
+						// Check for saved theme preference or prefer-color-scheme
+						const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+						const savedTheme = localStorage.getItem('theme');
+						
+						// Apply saved theme or use system preference
+						if (savedTheme === 'dark' || (!savedTheme && prefersDarkScheme.matches)) {
+								document.body.classList.add('dark-mode');
+						}
+						
+						// Toggle theme when button is clicked
+						themeToggle.addEventListener('click', () => {
+								document.body.classList.toggle('dark-mode');
+								
+								// Save preference to localStorage
+								const isDarkMode = document.body.classList.contains('dark-mode');
+								localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+						});
+				});
+			</script>
     </header>
     {{content}}
   </body>
