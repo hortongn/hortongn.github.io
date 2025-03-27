@@ -266,3 +266,94 @@ div#cv p.organization {
 div#cv ul {
   margin-top: 0;
 }
+
+/* light/dark toggle */
+
+.theme-toggle {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 1.5rem;
+	padding: 0.5rem;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	transition: background-color 0.3s;
+}
+
+.theme-toggle:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+body.dark-mode {
+	background-color: #121212;
+	color: #ffffff;
+}
+
+body.dark-mode header nav a {
+	color: #ffffff;
+}
+
+body.dark-mode header nav a.selected {
+	border-bottom: solid 2px #fff;
+}
+
+body header nav a.selected {
+	border-bottom: solid 2px #000;
+}
+
+body.dark-mode .theme-toggle:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode h3 {
+	color: #fff;
+}
+
+.moon-icon, .sun-icon {
+	width: 24px;
+	height: 24px;
+	fill: currentColor;
+}
+
+.moon-icon {
+	display: block;
+}
+
+.sun-icon {
+	display: none;
+}
+
+body.dark-mode .moon-icon {
+	display: none;
+}
+
+body.dark-mode .sun-icon {
+	display: block;
+	fill: white;
+	stroke: white;
+}
+
+.dark-image {
+  display: none;
+}
+
+body.dark-mode .light-image {
+  display: none;
+}
+
+body.dark-mode .dark-image {
+  display: inline;
+}
+
+body.dark-mode a:link,
+body.dark-mode a:visited {
+  color: #fff;
+}
+
