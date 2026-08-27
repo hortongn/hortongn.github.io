@@ -142,7 +142,7 @@ a {
 a:link,
 a:visited {
   color: #222;
-	border-bottom: solid;
+	border-bottom: solid 1px;
 }
 
 a.enso:hover,
